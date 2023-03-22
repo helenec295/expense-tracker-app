@@ -1,0 +1,125 @@
+.overview .balance-box {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+    width: 310px;
+    border: 1px solid lightgray;
+    box-shadow: 
+    0 1px 1px rgba(0, 0, 0, 0.15),
+    0 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    gap: 10px;
+    font-weight: bold;
+}
+
+
+.add-transaction-container {
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    box-shadow: 
+    0 1px 1px rgba(0, 0, 0, 0.15),
+    0 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    gap: 10px;
+    
+}
+
+.add-transaction-container input {
+    border: 1px solid lightgray;
+    box-shadow: 
+    inset 0 1px 2px rgba(0,0,0,0.2), 
+    0 -1px 1px #FFF, 
+    0 1px 0 #FFF;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    padding: 5px 10px;
+    margin: 10px 20px;
+    outline: none;
+    
+}
+
+.add-transaction-container .radio-box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    gap: 12px;
+    /* justify-content: center; */
+
+    
+}
+
+.radio-box input {
+    margin: 0 10px;
+    width: unset;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 10px 20px;
+}
+
+.add-transaction-container button {
+    padding: 5px 10px;
+    margin: 10px 20px;
+}
+
+.expense-container {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin: 10px 20px;
+    border: 1px solid lightgray;
+    box-shadow: 
+    0 1px 1px rgba(0, 0, 0, 0.15),
+    0 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 10px;
+    width: auto;
+    
+}
+
+.expense-container .expense-box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    width: 135px;
+}
+
+.expense-container .income-box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    width: 135px;
+}
+
+.expense-container span {
+    font-size: 2rem;
+    font-weight: bold;
+    /* color: ${(props) => (props.isIncome ? "green" : "red")}; */
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.expense-container .income-box span {
+    color: green;
+}
+
+.expense-container .expense-box span {
+    color: red;
+}
+
+

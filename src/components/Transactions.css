@@ -1,0 +1,52 @@
+.transactions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.transactions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    font-size: 1.8rem;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: white;
+    width: 310px;
+    border: 1px solid lightgray;
+    box-shadow: 
+    0 1px 1px rgba(0, 0, 0, 0.15),
+    0 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    
+    
+}
+
+.transactions-container input {
+    background-color: #e6e8e9;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    margin: 10px 0;
+    padding: 10px 15px;
+    outline: none;
+    width: 280px;
+    
+    
+}
+
+.transactions-container .cell {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.4rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    align-items: center;
+    font-weight: normal;
+    justify-content: space-between;
+    border-right: 4px solid;
+    width: 280px;
+    margin: 10px 0;
+} 
