@@ -33,7 +33,6 @@ const Home = (props) => {
 
     return (
         <div className='home container'>
-            Home
             <Overview 
             addTransaction={addTransaction} 
             expense={expense} 
